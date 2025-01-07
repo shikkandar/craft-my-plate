@@ -214,7 +214,7 @@ const Main = () => {
                 : "hover:bg-gray-200"
             }`}
           >
-            <img src={item.image} alt={item.name} className="w-6 h-6 mr-3" />
+            <img src={item.image} alt={item.name} className="w-6 h-6 mr-3 rounded" />
             <span>{item.name}</span>
           </div>
         ))}
@@ -262,8 +262,9 @@ const Main = () => {
                 <div key={i} className="flex items-center gap-5 p-5">
                   <img
                     src={data.image}
-                    // alt={data.name}
-                    className="w-20 h-20 "
+                    alt={data.name}
+
+                    className="w-20 h-20 rounded"
                   />
                   <div className="flex flex-col gap-1">
                     <p className="text-xl">{data.name}</p>
@@ -296,7 +297,7 @@ const Main = () => {
         <div>
           {cart.map((data, i) => (
             <div key={i} className="flex justify-between mt-2 gap-5">
-              <img src={data.image} alt={data.name} className="w-10 h-10" />
+              <img src={data.image} alt={data.name} className="w-10 h-10 rounded" />
               <p>{data.name}</p>
               <div className="flex gap-1">
                 <p

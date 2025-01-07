@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "name": "Home",
+      "image": "../assets/logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Profile",
+      "image": "../assets/logo.png"
+    },
+    {
+      "id": 3,
+      "name": "Messages",
+      "image": "/images/messages-icon.png"
+    },
+    {
+      "id": 4,
+      "name": "Settings",
+      "image": "/images/settings-icon.png"
+    },
+    {
+      "id": 5,
+      "name": "Logout",
+      "image": "/images/logout-icon.png"
+    }
+  ]
+  

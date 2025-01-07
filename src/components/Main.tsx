@@ -174,7 +174,7 @@ const Main = () => {
       <div>
         <TextField
           variant="outlined"
-          placeholder="Search"
+          placeholder="Search category"
           size="small"
           InputProps={{
             startAdornment: (
@@ -214,7 +214,11 @@ const Main = () => {
                 : "hover:bg-gray-200"
             }`}
           >
-            <img src={item.image} alt={item.name} className="w-6 h-6 mr-3 rounded" />
+            <img
+              src={item.image}
+              alt={item.name}
+              className="w-6 h-6 mr-3 rounded"
+            />
             <span>{item.name}</span>
           </div>
         ))}
@@ -224,7 +228,7 @@ const Main = () => {
       <div className="">
         <TextField
           variant="outlined"
-          placeholder="Search"
+          placeholder="Search category"
           className="w-[100%]"
           size="small"
           InputProps={{
@@ -263,7 +267,6 @@ const Main = () => {
                   <img
                     src={data.image}
                     alt={data.name}
-
                     className="w-20 h-20 rounded"
                   />
                   <div className="flex flex-col gap-1">
@@ -297,7 +300,11 @@ const Main = () => {
         <div>
           {cart.map((data, i) => (
             <div key={i} className="flex justify-between mt-2 gap-5">
-              <img src={data.image} alt={data.name} className="w-10 h-10 rounded" />
+              <img
+                src={data.image}
+                alt={data.name}
+                className="w-10 h-10 rounded"
+              />
               <p>{data.name}</p>
               <div className="flex gap-1">
                 <p

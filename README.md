@@ -66,7 +66,7 @@ Craft My Plate is an open-source project and welcomes contributions from the com
 
 ## License
 
-Craft My Plate is licensed under the MIT License. See the [LICENSE](https://github.com/shikkandar/craft-my-plate/blob/main/LICENSE) file for more information.
+Craft My Plate is licensed under the MIT License. See the [LICENSE](https://github.com/shikkandar/craft-my-plate/) file for more information.
 
 ## Credits
 

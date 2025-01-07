@@ -24,10 +24,10 @@ Craft My Plate is built using the following technologies:
 
 To get started with Craft My Plate, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/craft-my-plate.git`
+1. Clone the repository: `git clone https://github.com/shikkandar/craft-my-plate.git`
 2. Install dependencies: `npm install` or `yarn install`
 3. Start the development server: `npm run dev` or `yarn dev`
-4. Open your browser and navigate to `http://localhost:3000` to access the application
+4. Open your browser and navigate to `http://localhost:5173` to access the application
 
 ## Project Structure
 

@@ -58,7 +58,7 @@ craft-my-plate/
 Craft My Plate is an open-source project and welcomes contributions from the community. If you're interested in contributing, please follow these steps:
 
 1. Fork the repository: Click the "Fork" button on the GitHub repository page
-2. Clone your fork: `git clone https://github.com/your-username/craft-my-plate.git`
+2. Clone your fork: `git clone https://github.com/shikkandar/craft-my-plate.git`
 3. Create a new branch: `git checkout -b your-feature-branch`
 4. Make your changes and commit them: `git commit -m "Add your feature description"`
 5. Push your changes to your fork: `git push origin your-feature-branch`
